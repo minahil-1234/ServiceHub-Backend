@@ -42,7 +42,7 @@ ServiceHub Backend is a RESTful API built with Node.js, Express.js, and MongoDB.
 1. Clone the repository:
 
    ```bash
-   git clone YOUR_BACKEND_REPOSITORY_URL
+   git clone https://github.com/minahil-1234/ServiceHub-Backend.git
    ```
 
 2. Navigate to the backend directory:
@@ -63,9 +63,6 @@ ServiceHub Backend is a RESTful API built with Node.js, Express.js, and MongoDB.
 
    ```env
    PORT=5000
-   MONGODB_URI=YOUR_MONGODB_CONNECTION_STRING
-   ACCESS_TOKEN_SECRET=YOUR_ACCESS_TOKEN_SECRET
-   REFRESH_TOKEN_SECRET=YOUR_REFRESH_TOKEN_SECRET
    CLIENT_URL=http://localhost:5173/client/clientDashboard
    ADMIN_URL=http://localhost:5173/admin/adminDashboard
    ```
